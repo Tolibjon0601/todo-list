@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<script src="js/main.js"></script>
+		<header class="main__header">
+			<h1 class="main__header__title">Todo-list</h1>
+			<form id="new_task_form">
+				<input type="text" id="new_task_input" placeholder="Nima rejalashtirgansiz?" />
+				<input type="submit" id="new_task_submit" value="Add task" />
+			</form>
+		</header>
+		<main>
+			<section class="task_list">
+				<h2 class="task__list__title">Tasks</h2>
+				<div id="tasks">
+						<div class="task">
+							<div class="content">
+								<input type="text" class="text" value="Task -1" readonly />
+							</div>
+							<div class="actions">
+								<button class="edit">Edit</button>
+								<button class="delete">Delete</button>
+							</div>
+						</div>
+					<div class="task">
+						<div class="content">
+							<input type="text" class="text" value="Task -1" readonly />
+						</div>
+						<div class="actions">
+							<button class="edit">Edit</button>
+							<button class="delete">Delete</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
